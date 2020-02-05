@@ -1,0 +1,34 @@
+      q1 Info ssss ???? ????
+
+q1 opEN хаджямаджя ???
+
+q3 Condition q2==0
+
+q2 Single zzzz ?
+	
+q2 Single Сколько Вам лет ?
+Меньше 18
+sss
+26-35
+36-55
+Больше 56
+
+q3 Condition q20
+
+q3 Condition q2==0
+
+	q4 Single Ваше любимое мороженое?
+	Эскимо
+	Пломбир
+	Рожок
+
+	q5 Open Опишите, почему
+
+q3 Condition q222==0
+
+	q4 Single Ваше любимое мороженое?
+	Эскимо
+
+q6 Condition q2!=0
+
+	q7 Info Извините, опрос только для детей.

@@ -1,0 +1,9 @@
+@import url('./__title/content__title.css');
+@import url('./preloader-loading/preloader-loading.css');
+
+.content {
+    margin: 0 auto;
+    width: 1200px;
+    min-height: calc(52vw - 592px);
+    background-color: #ffffff;
+}

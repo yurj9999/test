@@ -1,0 +1,1 @@
+export const mainButton = document.querySelector('.file');

@@ -1,0 +1,9 @@
+@import url('./__circle-preloader/preloader-loading__circle-preloader.css');
+@import url('./__caption/preloader-loading__caption.css');
+
+.preloader-loading{
+    border: 1px solid #ffffff;
+    display: block;
+    position: relative;
+    margin: 0 auto;   
+}

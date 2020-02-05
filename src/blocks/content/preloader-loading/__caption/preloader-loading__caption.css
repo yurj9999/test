@@ -1,0 +1,10 @@
+.preloader-loading__caption{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+    margin-top: 60px;
+}

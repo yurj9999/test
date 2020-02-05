@@ -1,0 +1,7 @@
+@import url('../../top/top.css');
+@import url('../../button-wrapper/button-wrapper.css');
+
+.header__elements {
+    position: absolute;
+    width: 1200px;
+}

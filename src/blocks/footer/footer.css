@@ -1,0 +1,14 @@
+@import url('./__copyright/footer__copyright.css');
+@import url('./__about/footer__about.css');
+
+.footer {
+    margin: 0 auto;
+    width: 1200px;
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}

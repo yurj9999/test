@@ -1,0 +1,7 @@
+@import url('../choose-button/choose-button.css');
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}

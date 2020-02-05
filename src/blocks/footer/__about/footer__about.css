@@ -1,0 +1,22 @@
+.footer__about {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #1A1B22;
+    opacity: 1;
+    transition: opacity .5s;
+    border: 0;
+    background: none;
+}
+
+.footer__about:active, .footer__about:focus {
+    outline: none;
+}
+
+.footer__about:hover {
+    cursor: pointer;
+    opacity: .7;
+    color: #696969;
+}
