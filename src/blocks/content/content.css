@@ -1,9 +1,14 @@
-@import url('./__title/content__title.css');
 @import url('./preloader-loading/preloader-loading.css');
+
+@import url('../info/info.css');
+@import url('../open/open.css');
+@import url('../single/single.css');
 
 .content {
     margin: 0 auto;
     width: 1200px;
-    min-height: calc(52vw - 592px);
     background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

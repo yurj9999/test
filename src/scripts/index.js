@@ -1,35 +1,44 @@
 import '../pages/index.css';
+
 import {mainButton} from '../modules/Elements';
 import {Questions} from '../modules/Questions';
+import {Utilities} from '../modules/Utilities';
+import {Dom} from '../modules/Dom';
 
-const QUESTIONS = new Questions;
+const utilities = () => new Utilities;
+const dom = new Dom(utilities());
+const questions = new Questions(utilities());
+
 
 mainButton.addEventListener('change', (e) => {
-  const FILE = e.target.files[0];
+  const file = e.target.files[0];
   
-  if (FILE.name.includes('.txt')) {
+  if (file.name.includes('.txt')) {
     
-    const READER = new FileReader();
+    const reader = new FileReader();
 
-    READER.onload = (() => {
+    reader.onload = (() => {
 
       return (e) => {
         
-        const OK = e.target;
+        const ok = e.target;
 
-        const TEXT = OK.result.split('\n');
+        // создаем массив из текста в файле
+        const text = ok.result.split('\n');
 
-        const SOURCE = QUESTIONS.make(TEXT);
+        // передаем массив методу make, для преобразования его в структурированные данные в виде объектов с вопросами
+        const source = questions.make(text);
 
-        console.log(SOURCE);
+        console.log(source);
+
+        // если массив структурированных данных не пустой, передаем его в метод отрисовки вопросов - render
+        if (source.length > 0) dom.render(source, 0);
 
       }
-    })(FILE);
+    })(file);
   
-    READER.readAsText(FILE);
+    reader.readAsText(file);
 
-  } else {
-    console.log('ne ok'); // вместо этого окно с ошибкой, окно общая форма с затемнением бэка (для инфо, хелпа)
-  }
+  } else alert('Выберите файл формата txt');
 
 });

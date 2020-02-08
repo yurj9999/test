@@ -1,0 +1,46 @@
+.button-info_next {
+    font-family: 'Roboto Slab', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px;
+    color: #000000;
+    font-size: 16px;
+    border: 1px solid #000000;
+    padding: 10px 30px;
+    border-radius: 10px;
+    opacity: 1;
+    background-color: #ffffff;
+    background: none;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.button-info_next:active, .button-info_next:focus {
+    outline: none;
+}
+
+.button-info_next:hover {
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+/*.disabled {
+    font-family: 'Roboto Slab', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px;
+    color: #000000;
+    font-size: 16px;
+    border: 1px solid #000000;
+    padding: 10px 30px;
+    border-radius: 10px;
+    opacity: 1;
+    background-color: #ffffff;
+    background: none;
+    width: 300px;
+    margin: 0 auto;
+    opacity: .6;
+}*/
+

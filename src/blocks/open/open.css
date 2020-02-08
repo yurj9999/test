@@ -1,0 +1,16 @@
+@import url('./__question/open__question.css');
+@import url('./__textarea/open__textarea.css');
+@import url('./button-info_next/button-info_next.css');
+
+.open {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 100px;
+    font-family: Roboto medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 50px auto;
+    width: 100%;
+}

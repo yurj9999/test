@@ -1,0 +1,15 @@
+@import url('./__question/single__question.css');
+@import url('./__form/single__form.css');
+@import url('./button-info_next/button-info_next.css');
+
+.single {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 100px;
+    font-family: Roboto medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin: 50px auto;
+    width: 100%;
+}

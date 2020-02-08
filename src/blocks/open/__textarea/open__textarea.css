@@ -1,0 +1,13 @@
+.open__textarea {
+    width: 60%;
+    margin: 0 auto 50px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.open__textarea, .open__textarea {
+    outline: none;
+}

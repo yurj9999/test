@@ -1,0 +1,8 @@
+.label-radio {
+    margin-left: 5px;
+}
+
+.label-radio:hover {
+    opacity: .7;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+@import url('../radio/radio.css');
+
+.single__form {
+    margin: 0 auto 50px auto;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}

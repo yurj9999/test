@@ -1,0 +1,8 @@
+@import url('../label-radio/label-radio.css');
+@import url('../round/round.css');
+
+.radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}

@@ -4,7 +4,7 @@
 .header {
     margin: 0 auto;
     width: 1200px;
-    height: 512px;
+    /*height: 512px;*/
     background-image: url('../../images/header-pic.jpg');
     display: flex;
 }

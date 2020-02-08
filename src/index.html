@@ -15,14 +15,12 @@
             <div class="header__elements">
                 
                 <div class="top">
-                    <p class="top__title">THE SURVEY</p>
-                    <button class="button-info">Help</button>
-                        <!--<img src="<%=require('./images/load-icon.svg').default%>">-->
+                    <p class="top__title">ОПРОС</p>
                 </div>
 
                 <div class="button-wrapper">
 
-                    <div class="choose-button"> <!--Рядом кнопка показать ответы из localstorage в форме с затемнением бэка-->
+                    <div class="choose-button">
                         <input type="file" name="file" id="file" class="file">                    
                         <label for="file" class="file-label">Выбрать конфигурационный файл</label>
                     </div>
@@ -35,8 +33,6 @@
 
         <div class="content">
 
-            <h1 class="content__title">Опрос</h1>
-
             <div class="preloader-loading">
                 <i class="preloader-loading__circle-preloader"></i>
                 <p class="preloader-loading__caption">Загрузите конфигурационный файл ...</p>
@@ -44,11 +40,6 @@
             
         </div>
 
-        <footer class="footer">
-            <p class="footer__copyright">&#169; 2020 Test-work</p>
-            <button class="footer__about">About</button>
-            <!--<img src="<%=require('./images/load-icon.svg').default%>">-->
-        </footer>
     </main>
 </body>
 <script src="<%=htmlWebpackPlugin.files.chunks.main.entry %>"></script>
